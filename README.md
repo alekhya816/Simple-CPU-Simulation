@@ -1,6 +1,5 @@
 # Simple CPU Simulator 
 
-
 NUM_REGS = 4
 MEM_SIZE = 256
 MAX_CYCLES = 1000  # safety guard to prevent infinite loops
@@ -11,7 +10,6 @@ PC = 0                            # Program Counter (instruction index)
 Z = False                         # Zero flag
 running = True
 
-# Program: tuples (opcode, arg1, arg2?) - semantics depend on opcode
 program = [
     ("MOV", 0, 5),      # R0 = 5
     ("MOV", 1, 10),     # R1 = 10
